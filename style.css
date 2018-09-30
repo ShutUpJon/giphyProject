@@ -1,0 +1,31 @@
+button, div, form, input {
+    margin: 5px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+.holder {
+    float: left;
+}
+
+form {
+    float: right;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+}

@@ -38,7 +38,8 @@ $(document).ready(function(){
         $("#display-buttons").empty();
 
         for(var i = 0; i < displayedButtons.length; i++) {
-        var newButton = $("<button>");
+
+        var newButton = $("<button>")
         newButton.attr("class", "btn btn-dark");
         newButton.attr("id", "input");
         newButton.attr("data-name", displayedButtons[i]);
@@ -65,8 +66,8 @@ $(document).ready(function(){
         }
     }
 
-    $("submitPress").on("click", function(){
-        var input = ("#user-input").val().trim();
+    $("#submitPress").on("click", function(){
+        var input = $("#user-input").val().trim();
         form.reset();
         displayedButtons.push(input);
 

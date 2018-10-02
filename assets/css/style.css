@@ -1,0 +1,58 @@
+button, div, form, input {
+    margin: 5px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.jumbotron {
+    text-align: center;
+    background: #666666;
+    border: 2px solid black;
+}
+.holder {
+    float: left;
+}
+
+#form {
+    float: right;
+}
+
+.btn-dark {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.btn-dark:hover {
+    background-color: #666666;
+    border: 1px solid #666666;
+}
+.card-header {
+    background-color: #666666;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    border: 2px solid black;
+}
+.card-body {
+    background-color: black;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    border: 2px solid #666666;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    overflow: auto;
+    background: #666666;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+}
